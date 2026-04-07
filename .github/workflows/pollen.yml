@@ -2,7 +2,7 @@ name: Pollen map
 
 on:
   schedule:
-    - cron: "*/15 * * * *"
+     - cron: "0 9 * * *"
   workflow_dispatch:
 
 jobs:
