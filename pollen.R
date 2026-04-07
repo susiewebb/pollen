@@ -5,6 +5,7 @@ library(httr)
 library(jsonlite)
 library(purrr)
 library(DatawRappr)
+library(tidyverse)
 
 #Loading API key, chart keys
 api_key <- Sys.getenv("API_KEY")
