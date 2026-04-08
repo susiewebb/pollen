@@ -8,7 +8,7 @@ library(DatawRappr)
 library(tidyverse)
 
 #Loading API key, chart keys
-api_key <- Sys.getenv("API_KEY")
+api_key <- Sys.getenv("DW_API_KEY")
 pollen_chart <- Sys.getenv("POLLEN_KEY")
 
 datawrapper_auth(api_key =  api_key, overwrite=TRUE)
